@@ -5,9 +5,12 @@
 }
 
 body {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
   background-color: #222;
   color: white;
-
+  height: 100%;
   font-family: "Roboto", sans-serif;
 }
 
@@ -15,11 +18,22 @@ a {
   text-decoration: none;
 }
 
-section#articles {
-  max-width: 1240px;
-  padding: 0 2rem;
-  margin: 4rem auto;
+section#articles div {
+  /* min-height: calc(100vh - 60px); */
   display: flex;
   flex-direction: column;
+  justify-content: space-between;
+
+  padding: 0 2rem;
   gap: 46px;
+}
+
+section#articles {
+  max-width: 1240px;
+  /* display: flex; */
+  /* flex-direction: column; */
+  /* justify-content: space-between; */
+  /* padding: 0 2rem; */
+  margin: 4rem auto;
+  /* gap: 46px; */
 }
