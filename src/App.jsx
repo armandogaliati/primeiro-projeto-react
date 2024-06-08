@@ -15,23 +15,21 @@ class App extends React.Component {
         <Navbar />
 
         <section id="articles">
-          <div>
-            <Article
-              title="Designing Dashboards"
-              provider="Nasa"
-              pic={article1img}
-            />
-            <Article
-              title="Vibrant Portraits of 2020"
-              provider="SpaceNews"
-              pic={article2img}
-            />
-            <Article
-              title="36 Days of Malatyalam type"
-              provider="Spaceflight Now"
-              pic={article3img}
-            />
-          </div>
+          <Article
+            title="Designing Dashboards"
+            provider="Nasa"
+            pic={article1img}
+          />
+          <Article
+            title="Vibrant Portraits of 2020"
+            provider="SpaceNews"
+            pic={article2img}
+          />
+          <Article
+            title="36 Days of Malatyalam type"
+            provider="Spaceflight Now"
+            pic={article3img}
+          />
         </section>
 
         <Footer />

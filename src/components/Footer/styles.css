@@ -1,13 +1,8 @@
 footer {
   display: flex;
   background-color: #444;
-
-  /*  margin-bottom: 2rem; */
-  /* border-top: 1880px; */
   justify-content: center;
   position: sticky;
-  bottom: 0;
-  justify-self: flex-end;
   text-align: center;
   align-items: center;
   height: 60px;
