@@ -6,7 +6,7 @@
 
 div#root {
   min-height: 100vh;
-  overflow: hidden;
+  overflow: auto;
   display: block;
   position: relative;
   padding-bottom: 60px;
@@ -31,6 +31,8 @@ a {
 }
 
 section#articles {
+  overflow: auto;
+  min-width: 600px;
   max-width: 1240px;
   padding: 0 2rem;
   margin: 4rem auto;
